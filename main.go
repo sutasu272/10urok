@@ -28,7 +28,7 @@ func main() {
 	switch {
 	case hour >= 0 && hour < 5:
 		fmt.Println("ночь")
-	case hour >= 6 && hour < 11:
+	case hour >= 6 && hour <= 11:
 		fmt.Println("утро")
 	case hour >= 12 && hour < 17:
 		fmt.Println("день")
